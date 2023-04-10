@@ -1,0 +1,602 @@
+html {
+    navbar-height: 59px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo {
+    margin: 10px 34px;
+}
+div {
+    display: block;
+}
+#logo img {
+    height: 60px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3em;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+}
+form #form-inline {
+    margin-left: 50%;
+}
+#home {
+    flex-direction: column;
+    padding: 20px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    background: url("./university.jpg") no-repeat center center/cover;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h-primary {
+    font-size: 3.8em !important;
+    /* padding: 12px !important; */
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h1 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+section{
+    display: block;
+}
+#service {
+    margin: 34px;
+    display: flex;
+}
+#service:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+#service .card {
+    border: 2px solid rgb(139, 185, 60);
+    padding: 30px;
+    margin: 2px 20px;
+    border-radius: 25px;
+    background: rgb(233, 226, 226);
+    margin-bottom: 20px;
+}
+div {
+    display: block;
+}
+.d-flex{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.left-header {
+    width: 50%;
+    float: left;
+}
+.right-header{
+    float: left;
+    width: 50%;
+    text-align: end;
+}
+[type=search] {
+    padding: 7px 10px;
+    width: 45%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.searchBtn {
+    padding: 6px 20px;
+    background-color: #8ab7c926;
+    border: 1px solid white;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contactTitle {
+    margin: 0px !important;
+    padding: 3% 0 1.5%;
+}
+.searchBtn:hover {
+    color: black;
+    border: 1px solid black;
+}
+#service .card img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.center {
+    text-align: center;
+}
+.h-secondary {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3em;
+    padding: 12px;
+}
+h3 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#service .card p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.center {
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#service .card {
+    border: 2px solid rgb(139, 185, 60);
+    padding: 3px;
+    margin: 2px 20px;
+    border-radius: 25px;
+    background: rgb(233, 226, 226);
+    margin-bottom: 20px;
+}
+div {
+    display: block;
+}
+#service .card img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.center {
+    text-align: center;
+}
+.h-secondary {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3em;
+    padding: 12px;
+}
+h3 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#service .card p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.center {
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#service .card {
+    border: 2px solid rgb(139, 185, 60);
+    padding: 30px;
+    margin: 2px 20px;
+    border-radius: 25px;
+    background: rgb(233, 226, 226);
+    margin-bottom: 20px;
+}
+div {
+    display: block;
+}
+#service .card img {
+    height: 160px;
+    margin: auto;
+    display: block;
+    width: a;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.center {
+    text-align: center;
+}
+.h-secondary {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3em;
+    padding: 12px;
+}
+h3 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#service .card p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.center {
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#contact {
+    position: relative;
+}
+section{
+    display: block;
+}
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url("./contact\ us.jpg") no-repeat center center/cover;
+}
+.center {
+    text-align: center;
+}
+.h-primary {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h1 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form {
+    width: 40%;
+    padding-top: 20px;
+}
+form {
+    display: block;
+}
+div {
+    display: block;
+}
+#contact-box label {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+label {
+    cursor: default;
+}
+.socialTitle {
+    margin: 0px;
+    padding: 5% !important;
+}
+.cardLowerText {
+    font-size: 18px !important;
+}
+.cardLowerTitle {
+    margin: 15px !important;
+}
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2% 0 3%;
+    border: none;
+    outline: none;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+div {
+    display: block;
+}
+#contact-box label {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+label {
+    cursor: default;
+}
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+div {
+    display: block;
+}
+#contact-box label {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    paddin-bottom: 5;
+}
+label {
+    cursor: default;
+}
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    border: n;
+    padding: 1;
+}
+textarea {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#follow-section {
+    position: relative;
+}
+section{
+    display: block;
+}
+#follow-section::before {
+    content: "";
+    position: absolute;
+    background-image: url("./social media.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.center{
+    text-align: center;
+}
+.h-primary {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 29px;
+    font-size: 2em;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h3 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-item {
+    padding: 20px;
+    margin-top: -50px;
+    margin-bottom: -2px;
+}
+div {
+    display: block;
+}
+#follow img {
+    height: 50px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.follow-item {
+    padding: 20px;
+    margin-top: -50px;
+    margin-bottom: -2px;
+}
+div {
+    display: block;
+}
+#follow img {
+    height: 50px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+footer {
+    display: block;
+}
+.center{
+    text-align: center;
+}
+div {
+    display: block;
+}
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
